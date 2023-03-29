@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency Calculator</title>
+	<script src="currency_calculator.js"></script>
+</head>
+<body>
+	<h1>Currency Calculator</h1>
+	<label for="amount">Amount:</label>
+	<input type="number" id="amount">
+	<br><br>
+	<label for="from">From currency:</label>
+	<select id="from">
+		<option value="USD">US Dollar</option>
+		<option value="EUR">Euro</option>
+		<option value="JPY">Japanese Yen</option>
+		<option value="GBP">British Pound</option>
+        <option value="NOK">Norwegian kroner</option>
+	</select>
+	<br><br>
+	<label for="to">To currency:</label>
+	<select id="to">
+		<option value="USD">US Dollar</option>
+		<option value="EUR">Euro</option>
+		<option value="JPY">Japanese Yen</option>
+		<option value="GBP">British Pound</option>
+        <option value="NOK">Norwegian kroner</option>
+	</select>
+	<br><br>
+	<button onclick="convert()">Convert</button>
+	<br><br>
+	<p id="result"></p>
+	<script src="/script.js"></script>
+</body>
+</html>
